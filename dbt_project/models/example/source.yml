@@ -1,0 +1,9 @@
+version: 2
+
+sources :
+ - name: AIRBNB_DB
+   database: AIRBNB_DB 
+   schema: MAIN
+   tables:
+    - name: AIRBNB_LISTINGS_DIRTY
+
