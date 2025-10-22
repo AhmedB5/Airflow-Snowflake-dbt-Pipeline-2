@@ -1,13 +1,14 @@
 dbt_project:
   outputs:
     dev:
-      account: wu64632.switzerland-north.azure
+      account: ********.switzerland-north.azure
       database: AIRBNB_DB
-      password: PASS_PRO
+      password: *********
       role: ROLE_PRO
       schema: MAIN
       threads: 4
       type: snowflake
-      user: USER_PRO
+      user: *******
       warehouse: DBTDW
+
   target: devs
