@@ -24,6 +24,7 @@ The pipeline loads raw CSV data into Snowflake and transforms it using dbt model
 ---
 
 ## 📁 Project Structure  
+```
 dags/ # Airflow DAGs (airbnb_dag.py, exampledag.py)
 dbt_env/ # Virtual environment/config
 dbt_project/
@@ -35,3 +36,5 @@ dbt_project/
 └─ dbt_project.yml # Main dbt config
 include/ # Connection profiles and configs
 data/ # Raw CSV files
+```
+
