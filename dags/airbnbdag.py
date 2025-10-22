@@ -1,6 +1,5 @@
 from airflow import DAG
 from datetime import datetime
-# from airflow.operators.python import PythonOperator
 from airflow.operators.bash import BashOperator
 from airflow.utils.email import send_email
 
@@ -52,3 +51,4 @@ with DAG(
 
     run_macro_and_run >> run_snapshot
     
+
