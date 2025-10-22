@@ -1,6 +1,6 @@
-# 🚀 Airflow–Snowflake–dbt Pipeline
+#  Airflow–Snowflake–dbt Pipeline
 
-## 📌 Overview  
+##  Overview  
 A data pipeline built with **Airflow**, **Snowflake**, and **dbt** running in **Docker**.  
 The pipeline loads raw CSV data into Snowflake and transforms it using dbt models, macros, and snapshots.
 
